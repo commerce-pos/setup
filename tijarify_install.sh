@@ -116,7 +116,7 @@ sudo chown $OE_USER:$OE_USER /var/log/$OE_USER
 # Install TIJARIFY
 #--------------------------------------------------
 echo -e "\n==== Installing TIJARIFY Server ===="
-sudo git clone https://burhanghee@github.com/commerce-pos/tijarify.git
+sudo git clone https://burhanghee@github.com/commerce-pos/tijarify.git $OE_HOME_EXT/
 
 echo -e "\n---- Create custom module directory ----"
 sudo su $OE_USER -c "mkdir $OE_HOME/custom"
